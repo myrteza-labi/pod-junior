@@ -1,0 +1,11 @@
+.icon {
+    opacity: 0.5; 
+    display: inline-block; 
+    object-fit: cover;
+    max-height: 15px; 
+    margin-right: 10px; 
+}
+
+.icon:last-child {
+    margin-right: 0; 
+}
