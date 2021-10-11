@@ -3,7 +3,7 @@ import './TextPresentation.css';
 
 function TextPresentation(props){
     return(
-        <div className="TextPresentation" >
+        <section className="TextPresentation" >
             <h1 className="textPresentationTitle" >
                 Publish your podcasts everywhere.
             </h1>
@@ -12,7 +12,7 @@ function TextPresentation(props){
                 Apple Podcasts, Google Podcasts, Pocket Casts and more!
             </p>
 
-        </div>
+        </section>
     )
 }
 
