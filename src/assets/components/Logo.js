@@ -5,7 +5,7 @@ import logo from '../desktop/logo.svg';
 function Logo(props){
     return(
         <div className="Logo">
-            <img src={logo} alt="#" className="logoImg"/>
+            <div className="logoImg" ></div>
             <p className="logoText" >pod</p>
         </div>
     )

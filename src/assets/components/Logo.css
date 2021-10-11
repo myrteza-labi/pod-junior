@@ -1,0 +1,9 @@
+.logoImg {
+    width: 56px; 
+    height: 56px; 
+    background-image: url("../desktop/logo.svg"); 
+}
+.Logo {
+    display: flex; 
+    flex-direction: row; 
+}
