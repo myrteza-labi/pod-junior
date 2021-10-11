@@ -1,4 +1,32 @@
 .SubmitBox{
     display: flex ;
     flex-direction: column; 
+    width: 100%; 
+}
+
+input {
+    font-size: 14px; 
+    line-height: 14px; 
+    height: 46px; 
+    border-radius: 30px; 
+    padding: 10px; 
+    border: none; 
+    font-weight: 700; 
+}
+
+input[type=email]{
+    background-color: #2C344B; 
+    margin-bottom: 20px; 
+    color: #FFF; 
+    padding-left: 30px; 
+}
+
+input:focus{
+    outline: none; 
+
+}
+
+input[type=submit]{
+    background-color: #54E6AF; 
+    margin-bottom: 70px; 
 }

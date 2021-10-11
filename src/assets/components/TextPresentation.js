@@ -5,7 +5,7 @@ function TextPresentation(props){
     return(
         <section className="TextPresentation" >
             <h1 className="textPresentationTitle" >
-                Publish your podcasts everywhere.
+                <span className="lightText">Publish your podcasts</span> everywhere.
             </h1>
             <p className="textPresentationParagraph" >
                 Upload your audio to Pod with a single click. We’ll then distribute your podcast to Spotify, 

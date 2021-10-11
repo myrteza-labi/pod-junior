@@ -1,5 +1,10 @@
 .PodRequest {
+    overflow: hidden; 
     width: 375px; 
     display: flex; 
     flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px; 
+    background-image: linear-gradient(rgba(18, 23, 37, 0.9), rgba(18, 23, 37, 0.9)),url("../mobile/image-host.jpg"); 
 }
