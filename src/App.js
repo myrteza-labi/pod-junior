@@ -7,6 +7,11 @@ import MainImg from './assets/components/MainImg';
 import PodRequest from './assets/components/PodRequest';
 import SubmitBox from './assets/components/SubmitBox';
 import TextPresentation from './assets/components/TextPresentation';
+import logoSpotify from './assets/desktop/spotify.svg'; 
+import logoApplePodcast from './assets/desktop/apple-podcast.svg'; 
+import logoGooglePodcast from './assets/desktop/google-podcasts.svg'; 
+import logoPocketCast from './assets/desktop/pocket-casts.svg'; 
+
 
 function App() {
   return (
@@ -15,10 +20,10 @@ function App() {
         <Logo/>
         <TextPresentation/>
         <IconContainer>
-          <Icon/>
-          <Icon/>
-          <Icon/>
-          <Icon/>
+          <Icon src={logoSpotify} alt={"logo Spotify"}/>
+          <Icon src={logoApplePodcast} alt={"logo Apple Podcast"}/>
+          <Icon src={logoGooglePodcast} alt={"logo Google Podcast"}/>
+          <Icon src={logoPocketCast} alt={"logo Pockets Cast"}/>
         </IconContainer>
         <SubmitBox/>
         <MainImg/>
