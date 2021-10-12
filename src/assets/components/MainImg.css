@@ -16,5 +16,12 @@
     }
 }
 
-
-/*54E6AF */
+/* desktop */
+@media screen and (min-width: 1440px){
+    .MainImg {
+        background-image: linear-gradient( rgb(84,230,175,0.08) , rgb(84,230,175,0.08)), url("../desktop/image-host.jpg");
+        width: 888px; 
+        height: 640px; 
+        top: 130px;  
+    }
+}

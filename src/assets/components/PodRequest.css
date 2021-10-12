@@ -20,3 +20,11 @@
         background-color: #121725; 
     }
 }
+
+/* desktop */
+@media screen and (min-width: 1440px){
+    .PodRequest {
+        align-items: flex-start; 
+        width: 1440px; 
+    }
+}

@@ -21,3 +21,9 @@
         flex-direction: column-reverse; 
     }
 }
+
+
+/* desktop */
+@media screen and (min-width: 1440px){
+
+}
