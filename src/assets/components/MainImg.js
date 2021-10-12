@@ -1,6 +1,5 @@
 import React from 'react'; 
 import './MainImg.css'; 
-import mainImgBackground from '../mobile/image-host.jpg'; 
 
 function MainImg(props){
     return(
