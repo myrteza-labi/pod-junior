@@ -1,4 +1,3 @@
-<!--  MOBILE STYLE DONE : reste : Tablette style   -->
 
 
 <!--    README REACTJS   -->

@@ -1,4 +1,5 @@
 .PodRequest {
+    position: relative; 
     overflow: hidden; 
     width: 375px; 
     display: flex; 
@@ -7,4 +8,13 @@
     align-items: center; 
     padding: 20px; 
     background-image: linear-gradient(rgba(18, 23, 37, 0.9), rgba(18, 23, 37, 0.9)),url("../mobile/image-host.jpg"); 
+}
+
+
+/* Tablet */
+@media screen and (min-width: 778px){
+    .PodRequest {
+        width: 768px;
+        min-height: 1024px; 
+    }
 }
