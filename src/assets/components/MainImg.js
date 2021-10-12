@@ -4,7 +4,8 @@ import mainImgBackground from '../mobile/image-host.jpg';
 
 function MainImg(props){
     return(
-        <img src={mainImgBackground} alt="un homme entrain de chanter devant un micro" className="MainImg"/>
+        <div className="MainImg" ></div>
+        /*<img src={mainImgBackground} alt="un homme entrain de chanter devant un micro" className="MainImg"/>*/
     )
 }
 

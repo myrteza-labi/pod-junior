@@ -14,7 +14,9 @@
 /* Tablet */
 @media screen and (min-width: 778px){
     .PodRequest {
-        width: 768px;
+        min-width: 768px;
         min-height: 1024px; 
+        background-image: none; 
+        background-color: #121725; 
     }
 }

@@ -1,4 +1,5 @@
 .MainImg {
+    background-image: url("../mobile/image-host.jpg"); 
     width: 0; 
     height: 0; 
 }
@@ -6,8 +7,14 @@
 /* Tablet */
 @media screen and (min-width: 778px){
     .MainImg {
+        background-image: linear-gradient( rgb(84,230,175,0.08) , rgb(84,230,175,0.08)), url("../tablet/image-host.jpg"); 
         width: 490px; 
+        top: 0; 
+        right: 0; 
         height: 767px; 
         position: absolute; 
     }
 }
+
+
+/*54E6AF */

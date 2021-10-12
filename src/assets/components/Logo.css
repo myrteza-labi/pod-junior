@@ -19,3 +19,12 @@
     margin-left: 10px; 
     color: #FAFAFA; 
 }
+
+/* Tablet */
+@media screen and (min-width: 778px){
+    .Logo {
+        position: absolute; 
+        left: 40px;
+        top: 50px; 
+    }
+}
