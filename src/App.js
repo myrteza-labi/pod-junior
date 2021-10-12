@@ -18,14 +18,18 @@ function App() {
     <div className="App">
       <PodRequest>
         <Logo/>
+        <div className="mainContainer" >
         <TextPresentation/>
-        <IconContainer>
-          <Icon src={logoSpotify} alt={"logo Spotify"}/>
-          <Icon src={logoApplePodcast} alt={"logo Apple Podcast"}/>
-          <Icon src={logoGooglePodcast} alt={"logo Google Podcast"}/>
-          <Icon src={logoPocketCast} alt={"logo Pockets Cast"}/>
-        </IconContainer>
-        <SubmitBox/>
+        <div className="iconAndSubmitBoxContainer" >
+          <IconContainer>
+            <Icon src={logoSpotify} alt={"logo Spotify"}/>
+            <Icon src={logoApplePodcast} alt={"logo Apple Podcast"}/>
+            <Icon src={logoGooglePodcast} alt={"logo Google Podcast"}/>
+            <Icon src={logoPocketCast} alt={"logo Pockets Cast"}/>
+          </IconContainer>
+          <SubmitBox/>
+        </div>
+        </div>
         <MainImg/>
         <ImgDecoration/>
       </PodRequest>

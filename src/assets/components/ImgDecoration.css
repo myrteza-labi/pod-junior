@@ -2,3 +2,14 @@
     width: 0; 
     height: 0; 
 }
+
+/* Tablet */
+@media screen and (min-width: 778px){
+    .ImgDecoration {
+        position: absolute; 
+        width: 230px; 
+        height: 105px; 
+        bottom: 0; 
+        left: 40px; 
+    }
+}

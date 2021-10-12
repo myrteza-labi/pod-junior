@@ -2,10 +2,20 @@
     opacity: 0.5; 
     display: inline-block; 
     object-fit: cover;
-    max-height: 15px; 
+    height: 15px; 
     margin-right: 10px; 
 }
 
 .icon:last-child {
     margin-right: 0; 
+}
+
+/* Tablet */
+@media screen and (min-width: 778px){
+    .icon {
+        height: auto; 
+        margin-right: 5px; 
+        max-width: 130px; 
+        object-fit: contain;
+    }
 }
