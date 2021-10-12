@@ -25,5 +25,9 @@
 
 /* desktop */
 @media screen and (min-width: 1440px){
-
+    .mainContainer {
+        width:725px; 
+        margin-left: 165px; 
+        height: 530px; 
+    }
 }
