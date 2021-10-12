@@ -30,6 +30,18 @@ input[type=submit]{
     background-color: #54E6AF; 
     margin-bottom: 70px; 
 }
+.message {
+    text-align: center; 
+    font-weight: 500; 
+    font-size: 12px; 
+    margin-top: -14px; 
+}
+.errorMessage{
+    color: #FB3E3E; 
+}
+.doneMessage{
+    color: #54E6AF; 
+}
 
 /* Tablet */
 @media screen and (min-width: 778px){
@@ -38,7 +50,6 @@ input[type=submit]{
         position: relative; 
         width: 427px; 
         height: 56px; 
-        margin-bottom: 60px; 
     }
     input[type=email]{
         width: 100%; 
@@ -54,5 +65,16 @@ input[type=submit]{
     input[type=submit]:hover{
         background-color: #B3FFE2; 
     }
+    .message {
+        text-align: left; 
+        margin-left: 30px; 
+        margin-top: 12px; 
+        font-weight: 500; 
+        font-size: 12px; 
+    }
+    .formContainer{
+        margin-bottom: 60px; 
+    }
+
 }
 
